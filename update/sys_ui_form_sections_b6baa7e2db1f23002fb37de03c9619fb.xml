@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="b6baa7e2db1f23002fb37de03c9619fb" sys_domain="global" table="atf_input_variable" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-01 19:30:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3ebae7e2db1f23002fb37de03c9619bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="atf_input_variable" name="atf_input_variable" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">b6baa7e2db1f23002fb37de03c9619fb</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="atf_input_variable" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">f2bae7e2db1f23002fb37de03c961902</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-01 19:30:34</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-01 19:30:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3abae7e2db1f23002fb37de03c9619c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="atf_input_variable" name="atf_input_variable" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">b6baa7e2db1f23002fb37de03c9619fb</sys_ui_form>
+            <sys_ui_section caption="Reference Specification" display_value="Reference Specification" name="atf_input_variable" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">32bae7e2db1f23002fb37de03c9619c0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-01 19:30:34</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-01 19:30:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>72baa7e2db1f23002fb37de03c9619ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="atf_input_variable" name="atf_input_variable" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">b6baa7e2db1f23002fb37de03c9619fb</sys_ui_form>
+            <sys_ui_section caption="Choice List Specification" display_value="Choice List Specification" name="atf_input_variable" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">f6baa7e2db1f23002fb37de03c9619fd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-01 19:30:34</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-01 19:30:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fabae7e2db1f23002fb37de03c961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="atf_input_variable" name="atf_input_variable" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">b6baa7e2db1f23002fb37de03c9619fb</sys_ui_form>
+            <sys_ui_section caption="Dependent Field" display_value="Dependent Field" name="atf_input_variable" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">7abaa7e2db1f23002fb37de03c9619ff</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-01 19:30:34</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-01 19:30:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>febae7e2db1f23002fb37de03c961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="atf_input_variable" name="atf_input_variable" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">b6baa7e2db1f23002fb37de03c9619fb</sys_ui_form>
+            <sys_ui_section caption="Calculated Value" display_value="Calculated Value" name="atf_input_variable" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">febae7e2db1f23002fb37de03c961900</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-01 19:30:34</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-01 19:30:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bebae7e2db1f23002fb37de03c9619c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="atf_input_variable" name="atf_input_variable" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">b6baa7e2db1f23002fb37de03c9619fb</sys_ui_form>
+            <sys_ui_section caption="Default Value" display_value="Default Value" name="atf_input_variable" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">3ebae7e2db1f23002fb37de03c9619c2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-01 19:30:34</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>atf_input_variable</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-01 19:30:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b6baa7e2db1f23002fb37de03c9619fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>atf_input_variable</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Pycube_Ambulance_ROI" source="x_238323_pycube_am">b726f552db1323002fb37de03c9619da</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pycube_Ambulance_ROI">b726f552db1323002fb37de03c9619da</sys_scope>
+            <sys_update_name>sys_ui_form_sections_b6baa7e2db1f23002fb37de03c9619fb</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-01 19:30:34</sys_updated_on>
+            <sys_user/>
+            <view display_value="Advanced" name="advanced">7966be310a0a0b8c00bd504090503227</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

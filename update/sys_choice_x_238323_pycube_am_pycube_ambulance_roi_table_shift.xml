@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="shift" table="x_238323_pycube_am_pycube_ambulance_roi_table" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>shift</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Morning</label>
+            <language>en</language>
+            <name>x_238323_pycube_am_pycube_ambulance_roi_table</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-31 22:05:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ba8487dadb9323002fb37de03c9619eb</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-31 22:05:41</sys_updated_on>
+            <value>Morning</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>shift</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Evening</label>
+            <language>en</language>
+            <name>x_238323_pycube_am_pycube_ambulance_roi_table</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-31 22:05:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2c94cbdadb9323002fb37de03c9619ac</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-31 22:05:55</sys_updated_on>
+            <value>Evening</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>shift</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Night</label>
+            <language>en</language>
+            <name>x_238323_pycube_am_pycube_ambulance_roi_table</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-31 22:05:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>26a487dadb9323002fb37de03c961998</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-31 22:06:16</sys_updated_on>
+            <value>Night</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>shift</element>
+            <name>x_238323_pycube_am_pycube_ambulance_roi_table</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-31 22:05:14</sys_created_on>
+            <sys_id>f68487dadb9323002fb37de03c9619ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>shift</sys_name>
+            <sys_package display_value="Pycube_Ambulance_ROI" source="x_238323_pycube_am">b726f552db1323002fb37de03c9619da</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pycube_Ambulance_ROI">b726f552db1323002fb37de03c9619da</sys_scope>
+            <sys_update_name>sys_choice_x_238323_pycube_am_pycube_ambulance_roi_table_shift</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-31 22:05:14</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
