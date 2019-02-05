@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app">
     <sys_app action="INSERT_OR_UPDATE">
         <active>true</active>
-        <enforce_license>none</enforce_license>
+        <enforce_license>log</enforce_license>
         <js_level>helsinki_es5</js_level>
         <licensable>true</licensable>
         <license_category>none</license_category>
         <license_model>none</license_model>
         <logo/>
-        <menu display_value="Pycube_Ambulance_ROI">cc36f116db1323002fb37de03c9619c6</menu>
-        <name>Pycube_Ambulance_ROI</name>
+        <menu display_value="Ambulance Application">0bf2593fdbdfa3002fb37de03c961931</menu>
+        <name>Ambulance Application</name>
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
         <runtime_access_tracking>permissive</runtime_access_tracking>
@@ -23,14 +23,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-01-31 16:22:54</sys_created_on>
         <sys_id>b726f552db1323002fb37de03c9619da</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-01-31 16:22:54</sys_updated_on>
+        <sys_updated_on>2019-02-05 05:40:23</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role display_value="x_238323_pycube_am.user" name="x_238323_pycube_am.user">8836f116db1323002fb37de03c9619c9</user_role>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
     </sys_app>
 </record_update>

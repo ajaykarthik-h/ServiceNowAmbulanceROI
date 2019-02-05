@@ -97,9 +97,9 @@ g_form.setValue('cost_per_ambulance_trip',Cost_per_amb_trip_result);
         <sys_mod_count>3</sys_mod_count>
         <sys_name>When medical equip cost(10) changes</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Pycube_Ambulance_ROI" source="x_238323_pycube_am">b726f552db1323002fb37de03c9619da</sys_package>
+        <sys_package display_value="Ambulance Application" source="x_238323_pycube_am">b726f552db1323002fb37de03c9619da</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Pycube_Ambulance_ROI">b726f552db1323002fb37de03c9619da</sys_scope>
+        <sys_scope display_value="Ambulance Application">b726f552db1323002fb37de03c9619da</sys_scope>
         <sys_update_name>sys_script_client_dc92be27db5ba3002fb37de03c96197d</sys_update_name>
         <sys_updated_by>test.admin</sys_updated_by>
         <sys_updated_on>2019-02-05 02:11:16</sys_updated_on>

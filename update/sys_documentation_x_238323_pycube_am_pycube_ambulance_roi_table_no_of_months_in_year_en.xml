@@ -14,9 +14,9 @@
             <sys_id>d6640adadb1323002fb37de03c961915</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>No. of Months in Year</sys_name>
-            <sys_package display_value="Pycube_Ambulance_ROI" source="x_238323_pycube_am">b726f552db1323002fb37de03c9619da</sys_package>
+            <sys_package display_value="Ambulance Application" source="x_238323_pycube_am">b726f552db1323002fb37de03c9619da</sys_package>
             <sys_policy/>
-            <sys_scope display_value="Pycube_Ambulance_ROI">b726f552db1323002fb37de03c9619da</sys_scope>
+            <sys_scope display_value="Ambulance Application">b726f552db1323002fb37de03c9619da</sys_scope>
             <sys_update_name>sys_documentation_x_238323_pycube_am_pycube_ambulance_roi_table_no_of_months_in_year_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2019-01-31 17:25:03</sys_updated_on>
