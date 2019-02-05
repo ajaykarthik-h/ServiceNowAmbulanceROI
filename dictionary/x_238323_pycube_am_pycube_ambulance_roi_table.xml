@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Pycube_Ambulance_ROI Table" max_length="40" name="x_238323_pycube_am_pycube_ambulance_roi_table" type="collection">
+    <element label="Ambulance_Management" max_length="40" name="x_238323_pycube_am_pycube_ambulance_roi_table" type="collection">
         <element default="50000" label="Ambulance Purchase Cost" max_length="40" name="acquisition_cost" type="decimal"/>
         <element label="Administration" max_length="40" name="administration" type="boolean"/>
         <element default="60" label="Ambulance End of Life(In Months)" max_length="40" name="ambulance_end_of_life" type="integer"/>
         <element default=".60" label="Average Productivity(Industry Averages)" max_length="20" name="average_productivity_industry_averages" type="decimal"/>
-        <element default="0" label="burn per amb/month" max_length="15" name="burn_per_month" read_only="true" reference="x_238323_pycube_am__empty_" type="price"/>
-        <element default="0" label="burn per amb/year" max_length="15" name="burn_per_year" read_only="true" reference="x_238323_pycube_am__empty_" type="price"/>
         <element label="Compliance Requirements" max_length="40" name="compliance_requirements" type="boolean"/>
         <element attributes="format=none" label="Cost of Inventory Consumed(Per Trip)" max_length="20" name="cost_of_inventory_consumed_per_trip" type="decimal"/>
         <element attributes="format=none" label="Cost of Medical Equip &amp; Devices(per ambulance)" max_length="20" name="cost_of_medical_equip_devices_per_ambulance" type="decimal"/>
@@ -21,7 +19,6 @@
         <element default="9" label="Number of Resources" max_length="40" name="number_of_resources" type="integer"/>
         <element default="5000" label="Resource Cost(Month)" max_length="15" name="resource_cost_month" type="decimal"/>
         <element label="Resource Training Cost" max_length="15" name="resource_training_cost" type="decimal"/>
-        <element label="Revenue req/year" max_length="15" name="revenue_req_year" read_only="true" reference="x_238323_pycube_am__empty_" type="price"/>
         <element choice="3" label="Shift" max_length="40" name="shift" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Morning" sequence="1" value="Morning"/>
