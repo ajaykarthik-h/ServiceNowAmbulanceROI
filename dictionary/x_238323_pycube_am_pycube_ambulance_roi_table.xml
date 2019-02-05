@@ -4,6 +4,8 @@
         <element label="Administration" max_length="40" name="administration" type="boolean"/>
         <element default="60" label="Ambulance End of Life(In Months)" max_length="40" name="ambulance_end_of_life" type="integer"/>
         <element default=".60" label="Average Productivity(Industry Averages)" max_length="20" name="average_productivity_industry_averages" type="decimal"/>
+        <element label="Burn per month" max_length="15" name="burn_per_month" read_only="true" type="price"/>
+        <element label="Burn per Year" max_length="15" name="burn_per_year" read_only="true" type="price"/>
         <element label="Compliance Requirements" max_length="40" name="compliance_requirements" type="boolean"/>
         <element attributes="format=none" label="Cost of Inventory Consumed(Per Trip)" max_length="20" name="cost_of_inventory_consumed_per_trip" type="decimal"/>
         <element attributes="format=none" label="Cost of Medical Equip &amp; Devices(per ambulance)" max_length="20" name="cost_of_medical_equip_devices_per_ambulance" type="decimal"/>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_mobile_home_page_section">
+    <sys_ui_mobile_home_page_section action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hide_title>false</hide_title>
+        <module_style>regular</module_style>
+        <roles/>
+        <sys_class_name>sys_ui_mobile_home_page_section</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-05 03:50:06</sys_created_on>
+        <sys_id>bcc9bc3fdb9fa3002fb37de03c961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ambulance</sys_name>
+        <sys_package display_value="Pycube_Ambulance_ROI" source="x_238323_pycube_am">b726f552db1323002fb37de03c9619da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pycube_Ambulance_ROI">b726f552db1323002fb37de03c9619da</sys_scope>
+        <sys_update_name>sys_ui_mobile_home_page_section_bcc9bc3fdb9fa3002fb37de03c961906</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-05 03:50:06</sys_updated_on>
+        <title>Ambulance</title>
+    </sys_ui_mobile_home_page_section>
+</record_update>
