@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>fuel_cost_per_gallon</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>When fuel cost(9) changes</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '') {
+		return;
+	}
+	
+	//Input from fields
+	var a1 = parseFloat(g_form.getValue('number_of_ambulances').replace(/,/g,''));
+	
+	var a2 = parseFloat((g_form.getValue('acquisition_cost')).replace(/,/g,''));
+	var a3 = parseFloat(g_form.getValue('cost_of_medical_equip_devices_per_ambulance').replace(/,/g,''));
+	var a4 = parseFloat(g_form.getValue('fuel_consumption_ambulance_month').replace(/,/g,''));
+	var a5 = parseFloat(g_form.getValue('fuel_cost_per_gallon').replace(/,/g,''));
+	var a6 = parseFloat(g_form.getValue('number_of_resources').replace(/,/g,''));
+	var a7 = parseFloat(g_form.getValue('resource_training_cost').replace(/,/g,''));
+	var a8 = parseFloat(g_form.getValue('cost_service_maintenance_ambulance').replace(/,/g,''));
+	var a9 = parseFloat(g_form.getValue('no_of_trips_ambulance_month').replace(/,/g,''));
+	var a10 = parseFloat(g_form.getValue('cost_of_inventory_consumed_per_trip').replace(/,/g,''));
+	var a11 = parseFloat(g_form.getValue('ambulance_end_of_life').replace(/,/g,''));
+	var a12 = parseFloat(g_form.getValue('resource_cost_month').replace(/,/g,''));
+	var a13 = 12;
+	var a14 = parseFloat(g_form.getValue('average_productivity_industry_averages').replace(/,/g,''));
+	var a15 = parseFloat(g_form.getValue('transportation_time_minutes').replace(/,/g,''));
+	
+	// Alert
+	//alert(a1*a2);
+	
+	//Actual Calculation formulae
+	
+	var a_result = parseInt((a1*a2)+(a1*a3));
+	var total_fuel_cost_result = parseFloat((a4*a5)*a1);
+	var Total_resource_training_cost_result = parseFloat(a6*a7*a1);
+	var Total_Transportation_cost_result = parseFloat(a9*a10*a1);
+	var Total_ambulance_service_maintenance_cost_result = parseFloat(a1*a8);
+	var Total_resource_cost_result = parseFloat(a6*a12*a1);
+	// b
+	var Total_operational_Expense_Result = parseFloat(total_fuel_cost_result+Total_resource_cost_result+Total_resource_training_cost_result+Total_ambulance_service_maintenance_cost_result+Total_Transportation_cost_result);
+	//c
+	var Total_Expense_over_eol_result = parseFloat(a_result+(Total_operational_Expense_Result*a11));
+	//d
+	
+	var burn_per_ambulance = parseFloat(Total_Expense_over_eol_result/a11);
+	
+	//e
+	
+	var burn_per_ambulance_year = parseFloat(burn_per_ambulance*a13);
+	
+	//f
+	
+	var revenue_req_year = parseFloat(burn_per_ambulance_year/a14);
+	
+	//g
+	
+	var total_trips_per_year_result = parseFloat(a9*a13*a1);
+	
+	//h
+	
+	var Cost_per_amb_trip_result = parseFloat(revenue_req_year/total_trips_per_year_result);
+	
+	//Displaying the above calculations in form
+	g_form.setValue('total_ambulance_cost',a_result);
+	g_form.setValue('total_capital_expense',a_result);
+	g_form.setValue('total_fuel_cost',total_fuel_cost_result);	g_form.setValue('total_resource_training_cost',Total_resource_training_cost_result);
+	g_form.setValue('total_transportation_cost',Total_Transportation_cost_result);
+	g_form.setValue('total_service_maintenance_cost',Total_ambulance_service_maintenance_cost_result);
+	g_form.setValue('total_resource_cost',Total_resource_cost_result);
+	g_form.setValue('total_operational_expense',Total_operational_Expense_Result);
+	g_form.setValue('total_of_trips_per_year',total_trips_per_year_result);
+	//
+	g_form.setValue('total_lifetime_expense_of_ambulance',Total_Expense_over_eol_result);
+	//
+	g_form.setValue('burn_per_month',burn_per_ambulance);
+	g_form.setValue('burn_per_year',burn_per_ambulance_year);
+	//
+	g_form.setValue('revenue_req_year',revenue_req_year);
+	g_form.setValue('cost_per_ambulance_trip',Cost_per_amb_trip_result);
+	
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>test.admin</sys_created_by>
+        <sys_created_on>2019-02-04 17:58:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8f623e27db5ba3002fb37de03c961998</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>When fuel cost(9) changes</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Pycube_Ambulance_ROI" source="x_238323_pycube_am">b726f552db1323002fb37de03c9619da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pycube_Ambulance_ROI">b726f552db1323002fb37de03c9619da</sys_scope>
+        <sys_update_name>sys_script_client_8f623e27db5ba3002fb37de03c961998</sys_update_name>
+        <sys_updated_by>test.admin</sys_updated_by>
+        <sys_updated_on>2019-02-05 02:10:58</sys_updated_on>
+        <table>x_238323_pycube_am_pycube_ambulance_roi_table</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

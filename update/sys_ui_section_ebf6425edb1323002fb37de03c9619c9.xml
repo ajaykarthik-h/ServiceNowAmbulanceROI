@@ -3,84 +3,70 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>cost_service_maintenance_ambulance</element>
             <position>0</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-01 18:10:56</sys_created_on>
-            <sys_id>18885fe6dbdb23002fb37de03c961940</sys_id>
+            <sys_created_by>test.admin</sys_created_by>
+            <sys_created_on>2019-02-04 21:28:17</sys_created_on>
+            <sys_id>1c72afe3dbdba3002fb37de03c9619ca</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Costs" display_value="Costs" name="x_238323_pycube_am_pycube_ambulance_roi_table" sys_domain="global" view="Default view">ebf6425edb1323002fb37de03c9619c9</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-01 18:10:56</sys_updated_on>
+            <sys_updated_by>test.admin</sys_updated_by>
+            <sys_updated_on>2019-02-04 21:28:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>resource_cost_month</element>
             <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-01 18:10:56</sys_created_on>
-            <sys_id>98885fe6dbdb23002fb37de03c961940</sys_id>
+            <sys_created_by>test.admin</sys_created_by>
+            <sys_created_on>2019-02-04 21:28:17</sys_created_on>
+            <sys_id>9072afe3dbdba3002fb37de03c9619cb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Costs" display_value="Costs" name="x_238323_pycube_am_pycube_ambulance_roi_table" sys_domain="global" view="Default view">ebf6425edb1323002fb37de03c9619c9</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-01 18:10:56</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>cost_per_ambulance_trip</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-01 18:10:56</sys_created_on>
-            <sys_id>1c885fe6dbdb23002fb37de03c961940</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Costs" display_value="Costs" name="x_238323_pycube_am_pycube_ambulance_roi_table" sys_domain="global" view="Default view">ebf6425edb1323002fb37de03c9619c9</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-01 18:10:56</sys_updated_on>
+            <sys_updated_by>test.admin</sys_updated_by>
+            <sys_updated_on>2019-02-04 21:28:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-01 18:10:56</sys_created_on>
-            <sys_id>9c885fe6dbdb23002fb37de03c961940</sys_id>
+            <position>2</position>
+            <sys_created_by>test.admin</sys_created_by>
+            <sys_created_on>2019-02-04 21:28:17</sys_created_on>
+            <sys_id>1472afe3dbdba3002fb37de03c9619cb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Costs" display_value="Costs" name="x_238323_pycube_am_pycube_ambulance_roi_table" sys_domain="global" view="Default view">ebf6425edb1323002fb37de03c9619c9</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-01 18:10:56</sys_updated_on>
+            <sys_updated_by>test.admin</sys_updated_by>
+            <sys_updated_on>2019-02-04 21:28:17</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>cost_of_medical_equip_devices_per_ambulance</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-01 18:10:56</sys_created_on>
-            <sys_id>10885fe6dbdb23002fb37de03c961941</sys_id>
+            <position>3</position>
+            <sys_created_by>test.admin</sys_created_by>
+            <sys_created_on>2019-02-04 21:28:17</sys_created_on>
+            <sys_id>9472afe3dbdba3002fb37de03c9619cb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Costs" display_value="Costs" name="x_238323_pycube_am_pycube_ambulance_roi_table" sys_domain="global" view="Default view">ebf6425edb1323002fb37de03c9619c9</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-01 18:10:56</sys_updated_on>
+            <sys_updated_by>test.admin</sys_updated_by>
+            <sys_updated_on>2019-02-04 21:28:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>cost_of_inventory_consumed_per_trip</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-01 18:10:56</sys_created_on>
-            <sys_id>90885fe6dbdb23002fb37de03c961941</sys_id>
+            <position>4</position>
+            <sys_created_by>test.admin</sys_created_by>
+            <sys_created_on>2019-02-04 21:28:17</sys_created_on>
+            <sys_id>1872afe3dbdba3002fb37de03c9619cb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Costs" display_value="Costs" name="x_238323_pycube_am_pycube_ambulance_roi_table" sys_domain="global" view="Default view">ebf6425edb1323002fb37de03c9619c9</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-01 18:10:56</sys_updated_on>
+            <sys_updated_by>test.admin</sys_updated_by>
+            <sys_updated_on>2019-02-04 21:28:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
