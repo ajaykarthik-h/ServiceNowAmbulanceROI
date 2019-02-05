@@ -9,7 +9,7 @@
         <element label="Compliance Requirements" max_length="40" name="compliance_requirements" type="boolean"/>
         <element attributes="format=none" label="Cost of Inventory Consumed(Per Trip)" max_length="20" name="cost_of_inventory_consumed_per_trip" type="decimal"/>
         <element attributes="format=none" label="Cost of Medical Equip &amp; Devices(per ambulance)" max_length="20" name="cost_of_medical_equip_devices_per_ambulance" type="decimal"/>
-        <element attributes="omit_sys_original=true,format=none" label="Cost per ambulance Trip" max_length="20" name="cost_per_ambulance_trip" read_only="true" type="decimal"/>
+        <element attributes="omit_sys_original=true,format=none" label="Cost per ambulance Trip" max_length="20" name="cost_per_ambulance_trip" read_only="true" type="price"/>
         <element attributes="format=none" label="Cost(Service/Maintenance/Ambulance)" max_length="15" name="cost_service_maintenance_ambulance" type="decimal"/>
         <element label="Emergency Department" max_length="40" name="emergency_department" type="boolean"/>
         <element label="Fuel Consumption(Ambulance/Month)" max_length="40" name="fuel_consumption_ambulance_month" type="integer"/>
@@ -30,15 +30,15 @@
         </element>
         <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <element attributes="omit_sys_original=true" default="50000.00" label="Total Ambulance Cost" max_length="15" name="total_ambulance_cost" read_only="true" type="price"/>
-        <element attributes="omit_sys_original=true" label="Total Capital Expense" max_length="40" name="total_capital_expense" read_only="true" type="decimal"/>
-        <element attributes="omit_sys_original=true" label="Total Fuel Cost" max_length="40" name="total_fuel_cost" read_only="true" type="decimal"/>
-        <element attributes="omit_sys_original=true" label="Total Lifetime Expense of ambulance" max_length="40" name="total_lifetime_expense_of_ambulance" read_only="true" type="decimal"/>
+        <element attributes="omit_sys_original=true" label="Total Capital Expense" max_length="40" name="total_capital_expense" read_only="true" type="price"/>
+        <element attributes="omit_sys_original=true" label="Total Fuel Cost" max_length="40" name="total_fuel_cost" read_only="true" type="price"/>
+        <element attributes="omit_sys_original=true" label="Total Lifetime Expense of ambulance" max_length="40" name="total_lifetime_expense_of_ambulance" read_only="true" type="price"/>
         <element label="Total # of trips per year" max_length="40" name="total_of_trips_per_year" read_only="true" type="integer"/>
-        <element attributes="omit_sys_original=true" label="Total Operational Expense" max_length="40" name="total_operational_expense" read_only="true" type="decimal"/>
-        <element attributes="omit_sys_original=true" label="Total Resource Cost" max_length="40" name="total_resource_cost" read_only="true" type="decimal"/>
-        <element attributes="omit_sys_original=true" label="Total Resource Training Cost" max_length="40" name="total_resource_training_cost" read_only="true" type="decimal"/>
-        <element attributes="omit_sys_original=true" label="Total Service  Maintenance Cost" max_length="40" name="total_service_maintenance_cost" read_only="true" type="decimal"/>
-        <element attributes="omit_sys_original=true" label="Total Transportation Cost" max_length="40" name="total_transportation_cost" read_only="true" type="decimal"/>
+        <element attributes="omit_sys_original=true" label="Total Operational Expense" max_length="40" name="total_operational_expense" read_only="true" type="price"/>
+        <element attributes="omit_sys_original=true" label="Total Resource Cost" max_length="40" name="total_resource_cost" read_only="true" type="price"/>
+        <element attributes="omit_sys_original=true" label="Total Resource Training Cost" max_length="40" name="total_resource_training_cost" read_only="true" type="price"/>
+        <element attributes="omit_sys_original=true" label="Total Service  Maintenance Cost" max_length="40" name="total_service_maintenance_cost" read_only="true" type="price"/>
+        <element attributes="omit_sys_original=true" label="Total Transportation Cost" max_length="40" name="total_transportation_cost" read_only="true" type="price"/>
         <element label="Transportation TIme(Minutes)" max_length="40" name="transportation_time_minutes" type="integer"/>
         <element choice="3" label="Type of case" max_length="40" name="type_of_case" type="choice">
             <choice>

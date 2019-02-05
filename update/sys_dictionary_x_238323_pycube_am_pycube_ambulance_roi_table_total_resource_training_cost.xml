@@ -27,7 +27,7 @@
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Decimal">decimal</internal_type>
+        <internal_type display_value="Price">price</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_238323_pycube_am_pycube_ambulance_roi_table</name>
@@ -49,14 +49,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-01-31 22:54:26</sys_created_on>
         <sys_id>13cf8f52dbd323002fb37de03c961931</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Total Resource Training Cost</sys_name>
         <sys_package display_value="Pycube_Ambulance_ROI" source="x_238323_pycube_am">b726f552db1323002fb37de03c9619da</sys_package>
         <sys_policy/>
         <sys_scope display_value="Pycube_Ambulance_ROI">b726f552db1323002fb37de03c9619da</sys_scope>
         <sys_update_name>sys_dictionary_x_238323_pycube_am_pycube_ambulance_roi_table_total_resource_training_cost</sys_update_name>
-        <sys_updated_by>test.admin</sys_updated_by>
-        <sys_updated_on>2019-02-04 21:57:55</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-05 04:07:12</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
