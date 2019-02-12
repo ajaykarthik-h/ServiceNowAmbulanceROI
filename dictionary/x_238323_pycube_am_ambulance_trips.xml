@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Ambulance Trips" max_length="40" name="x_238323_pycube_am_ambulance_trips" type="collection">
+        <element label="Ambulance" max_length="32" name="ambulance" reference="x_238323_pycube_am_ambulance_info" type="reference"/>
+        <element label="Amount Paid" max_length="20" name="amount_paid" type="price"/>
+        <element label="Cost" max_length="20" name="cost" type="price"/>
+        <element display="true" function_definition="glidefunction:subtract(amount_paid, patient_billed_amount)" function_field="true" label="Net Income" max_length="20" name="net_income" read_only="true" type="price"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Patient" max_length="32" name="patient" reference="x_238323_pycube_am_patients_table" type="reference"/>
+        <element label="Patient Billed Amount" max_length="20" name="patient_billed_amount" type="price"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Total Cost" max_length="20" name="total_cost" type="price"/>
+        <index name="index">
+            <element name="patient"/>
+        </index>
+        <index name="index2">
+            <element name="ambulance"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

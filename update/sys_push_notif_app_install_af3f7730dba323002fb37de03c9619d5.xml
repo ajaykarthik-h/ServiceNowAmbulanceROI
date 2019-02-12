@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_app_install">
+    <sys_push_notif_app_install action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <last_registered_on>2019-02-08 20:46:31</last_registered_on>
+        <sys_class_name>sys_push_notif_app_install</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-08 20:46:31</sys_created_on>
+        <sys_id>af3f7730dba323002fb37de03c9619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cmCEJnJnKXg:APA91bFph8p_HEsp2M1cUNiPC1Y3PRh1DGFiDTIQ90DtE2rWvGtFjdLM3kONYl0uKTTM1GOuvpvtSNZumOWk9kXn1k6BeGjtCkKIQ2i4jmTE4M5eCmZGoiRHwaln5pX4jYSX1G_t-M6L</sys_name>
+        <sys_package display_value="Ambulance Application" source="x_238323_pycube_am">b726f552db1323002fb37de03c9619da</sys_package>
+        <sys_policy/>
+        <sys_push_application_id display_value="ServiceNow Mobile Application">ab704041ff1102009738ffffffffff33</sys_push_application_id>
+        <sys_push_platform_id display_value="Google">53e75f30ff0002009738ffffffffff12</sys_push_platform_id>
+        <sys_scope display_value="Ambulance Application">b726f552db1323002fb37de03c9619da</sys_scope>
+        <sys_update_name>sys_push_notif_app_install_af3f7730dba323002fb37de03c9619d5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-08 20:46:31</sys_updated_on>
+        <sys_user_id display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</sys_user_id>
+        <token>cmCEJnJnKXg:APA91bFph8p_HEsp2M1cUNiPC1Y3PRh1DGFiDTIQ90DtE2rWvGtFjdLM3kONYl0uKTTM1GOuvpvtSNZumOWk9kXn1k6BeGjtCkKIQ2i4jmTE4M5eCmZGoiRHwaln5pX4jYSX1G_t-M6L</token>
+    </sys_push_notif_app_install>
+</record_update>

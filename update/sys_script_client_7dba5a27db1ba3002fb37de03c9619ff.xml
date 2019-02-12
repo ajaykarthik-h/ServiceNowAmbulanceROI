@@ -15,7 +15,10 @@
       return;
    }
 
-   //Input from fields 
+	//var foo = Ambulance_Field();
+	//foo = ambulanceCalculations();
+	
+		//Input from fields 
 	var a1 = parseFloat(g_form.getValue('number_of_ambulances').replace(/,/g,''));	 
 		
 	var a2 = parseFloat((g_form.getValue('acquisition_cost')).replace(/,/g,'')); 
@@ -39,6 +42,7 @@
 	//Actual Calculation formulae
 	
 	var a_result = parseInt((a1*a2)+(a1*a3));
+		
 	var total_fuel_cost_result = parseFloat((a4*a5)*a1);
 	var Total_resource_training_cost_result = parseFloat(a6*a7*a1);
 	var Total_Transportation_cost_result = parseFloat(a9*a10*a1);
@@ -68,7 +72,7 @@
 	
 	var Cost_per_amb_trip_result = parseFloat(revenue_req_year/total_trips_per_year_result);
 	
-	//Displaying the above calculations in form
+	//Returning the above calculations in form
 	g_form.setValue('total_ambulance_cost',a_result);
 	g_form.setValue('total_capital_expense',a_result);
 	g_form.setValue('total_fuel_cost',total_fuel_cost_result);	g_form.setValue('total_resource_training_cost',Total_resource_training_cost_result);
@@ -76,16 +80,12 @@
 	g_form.setValue('total_service_maintenance_cost',Total_ambulance_service_maintenance_cost_result);
 	g_form.setValue('total_resource_cost',Total_resource_cost_result);
 	g_form.setValue('total_operational_expense',Total_operational_Expense_Result);
-g_form.setValue('total_of_trips_per_year',total_trips_per_year_result);	
-//
-g_form.setValue('total_lifetime_expense_of_ambulance',Total_Expense_over_eol_result);	
-	//
-g_form.setValue('burn_per_month',burn_per_ambulance);	
-g_form.setValue('burn_per_year',burn_per_ambulance_year);	
-	//
-g_form.setValue('revenue_req_year',revenue_req_year);	
-g_form.setValue('cost_per_ambulance_trip',Cost_per_amb_trip_result);	
-	
+	g_form.setValue('total_of_trips_per_year',total_trips_per_year_result);	
+	g_form.setValue('total_lifetime_expense_of_ambulance',Total_Expense_over_eol_result);	
+	g_form.setValue('burn_per_month',burn_per_ambulance);	
+	g_form.setValue('burn_per_year',burn_per_ambulance_year);	
+	g_form.setValue('revenue_req_year',revenue_req_year);	
+	g_form.setValue('cost_per_ambulance_trip',Cost_per_amb_trip_result);
 	
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
@@ -94,15 +94,15 @@ g_form.setValue('cost_per_ambulance_trip',Cost_per_amb_trip_result);
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7dba5a27db1ba3002fb37de03c9619ff</sys_id>
-        <sys_mod_count>78</sys_mod_count>
+        <sys_mod_count>83</sys_mod_count>
         <sys_name>When Ambulance(1) number changes</sys_name>
         <sys_overrides/>
         <sys_package display_value="Ambulance Application" source="x_238323_pycube_am">b726f552db1323002fb37de03c9619da</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ambulance Application">b726f552db1323002fb37de03c9619da</sys_scope>
         <sys_update_name>sys_script_client_7dba5a27db1ba3002fb37de03c9619ff</sys_update_name>
-        <sys_updated_by>test.admin</sys_updated_by>
-        <sys_updated_on>2019-02-05 02:05:52</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-05 14:03:40</sys_updated_on>
         <table>x_238323_pycube_am_pycube_ambulance_roi_table</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

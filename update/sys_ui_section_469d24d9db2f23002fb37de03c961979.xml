@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Net Income" section_id="469d24d9db2f23002fb37de03c961979" sys_domain="global" table="x_238323_pycube_am_ambulance_info" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>net_income</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-09 18:48:14</sys_created_on>
+            <sys_id>2ccd68d9db2f23002fb37de03c961930</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Net Income" display_value="Net Income" name="x_238323_pycube_am_ambulance_info" sys_domain="global" view="Default view">469d24d9db2f23002fb37de03c961979</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-09 18:48:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Net Income</caption>
+            <header>false</header>
+            <name>x_238323_pycube_am_ambulance_info</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-09 18:47:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>469d24d9db2f23002fb37de03c961979</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Net Income</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Ambulance Application" source="x_238323_pycube_am">b726f552db1323002fb37de03c9619da</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Ambulance Application">b726f552db1323002fb37de03c9619da</sys_scope>
+            <sys_update_name>sys_ui_section_469d24d9db2f23002fb37de03c961979</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-09 18:48:13</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
